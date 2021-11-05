@@ -94,10 +94,6 @@ article {
   margin-top: -4rem;
 }
 
-input {
-  visibility: hidden;
-}
-
 @media screen and (max-width: 420px) and (min-width: 320px) {
   h1 {
     font-size: 4rem;
