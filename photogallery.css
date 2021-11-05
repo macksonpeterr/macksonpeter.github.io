@@ -86,7 +86,7 @@ img {
     grid-template-rows: 812px 1000px;
   }
 }
-@media screen and (max-width: 420px) and (min-width: 410px) {
+@media screen and (max-width: 420px) and (min-width: 400px) {
   .container {
     display: grid;
     grid-template-rows: 736px 1000px;
