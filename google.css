@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.a {
+  color: rgb(92, 87, 87);
+}
+
+img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+}
+
+li {
+  padding: 0.8rem;
+  line-height: 24px;
+  margin-top: -1rem;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  padding: 1rem;
+  font-weight: 350;
+}
+
+.g {
+  color: rgb(56, 139, 248);
+}
+
+.o {
+  color: rgb(255, 65, 65);
+}
+
+.l {
+  color: rgb(50, 189, 50);
+}
+
+.e {
+  color: rgb(248, 187, 32);
+}
+
+strong {
+  padding: 0.1rem;
+}
+
+.bal {
+  text-align: center;
+  margin-top: -3.5vh;
+}
+
+#url {
+  line-height: 2.4;
+  border-radius: 3rem;
+  width: 22rem;
+  border: 1px solid white;
+  color: rgb(17, 0, 0);
+  box-shadow: 0px 0px 30px lightgrey;
+  align-content: center;
+}
+
+article {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: tomato;
+}
+
+@media screen and (min-width: 600px) {
+  #url {
+    width: 30rem;
+  }
+}

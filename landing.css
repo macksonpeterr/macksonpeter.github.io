@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 400px 400px 1260px 400px 400px;
+  grid-template-columns: 100%;
+}
+
+header {
+  background-image: url(colored.svg);
+  margin: 0;
+}
+
+section {
+  background: rgb(199, 199, 102);
+}
+
+img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: -13%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 10%;
+  color: rgb(14, 0, 0);
+}
+
+.by {
+  background: rgb(1, 17, 4);
+}
+
+.or {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h3 {
+  width: 200px;
+  padding: 10%;
+  background: rgba(253, 253, 253, 0.5);
+  margin-top: -1.5%;
+  margin-bottom: 20%;
+}
+
+main {
+  background: rgb(101, 102, 98);
+}
+
+footer {
+  background: #50636e;
+}
+
+@media screen and (min-width: 665px) {
+  .container {
+    display: grid;
+    grid-template-rows: 400px 400px 490px 400px 400px;
+    grid-template-columns: 100%;
+    border: 2px solid black;
+  }
+
+  #pi {
+    text-align: center;
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: -13%;
+  }
+
+  h3 {
+    width: 120px;
+    padding: 10%;
+    background: rgba(253, 253, 253, 0.5);
+    margin-top: -3.5%;
+    margin-bottom: 20%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  li {
+    padding: 1%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-rows: 400px 400px 490px 400px 400px;
+    grid-template-columns: 100%;
+    border: 2px solid black;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  li {
+    padding: 1%;
+    margin-left: 0;
+  }
+}

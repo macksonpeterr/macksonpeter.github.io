@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  background-image: url(rainbow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 96.7vh;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration-line: none;
+  color: orange;
+}
+
+a:hover {
+  background-color: rgb(85, 128, 5);
+  padding: 0.3rem;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+}
