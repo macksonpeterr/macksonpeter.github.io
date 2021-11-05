@@ -3,11 +3,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 .container {
   display: grid;
-  grid-template-rows: 650px 1050px;
+  grid-template-rows: 650px 1250px;
 }
 
 h1 {
@@ -20,7 +21,6 @@ p {
 }
 
 header {
-  padding-left: 2rem;
   padding-top: 20rem;
   background-color: rgb(239, 241, 241);
 }
@@ -38,10 +38,6 @@ a {
 
 a:hover {
   filter: brightness(95%);
-}
-
-main {
-  padding-top: 1rem;
 }
 
 #pg {
