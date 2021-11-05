@@ -71,10 +71,19 @@ h2 {
     height: 107vh;
   }
 
+  .container {
+    display: grid;
+    grid-template-rows: 80px 300px 150px;
+  }
+
   li {
     padding: 0.5rem;
     margin-top: -1rem;
     font-size: 1rem;
+  }
+
+  main {
+    text-align: center;
   }
 }
 
@@ -120,6 +129,12 @@ h2 {
 @media screen and (max-width: 825px) and (min-width: 800px) {
   body {
     height: 160vh;
+  }
+}
+
+@media screen and (min-width: 325px) {
+  main {
+    text-align: center;
   }
 }
 
