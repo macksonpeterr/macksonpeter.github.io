@@ -66,6 +66,19 @@ h2 {
   padding: 1rem;
 }
 
+@media screen and (max-width: 369px) and (min-width: 360px) {
+  body {
+    height: 107vh;
+  }
+
+  li {
+    padding: 0.5rem;
+    margin-top: -1rem;
+
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 380px) and (min-width: 370px) {
   body {
     height: 102vh;
