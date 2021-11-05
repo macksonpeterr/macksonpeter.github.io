@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
+html {
+  font-size: 100%;
+}
+
 body {
   font-family: "Jost", sans-serif;
 }
@@ -39,7 +43,7 @@ a:hover {
 
 h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 5rem;
   padding: 1rem;
   font-weight: 350;
 }
@@ -84,6 +88,13 @@ article {
   height: 50px;
   border-radius: 25px;
   background: tomato;
+}
+
+@media screen and (max-width: 420px) and (min-width: 320px) {
+  h1 {
+    font-size: 4rem;
+    font-weight: 100;
+  }
 }
 
 @media screen and (min-width: 600px) {

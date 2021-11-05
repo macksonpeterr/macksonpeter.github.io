@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 body {
-  background-image: url(rainbow.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 96.7vh;
+  background-color: white;
 
   font-family: "Open Sans", sans-serif;
 }
@@ -19,11 +16,10 @@ ul {
 
 a {
   text-decoration-line: none;
-  color: orange;
+  color: red;
 }
 
 a:hover {
-  background-color: rgb(85, 128, 5);
   padding: 0.3rem;
 }
 
