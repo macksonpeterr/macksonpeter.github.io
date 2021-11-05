@@ -126,7 +126,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 675px) and (min-width: 650px) {
+@media screen and (max-width: 675px) and (min-width: 640px) {
   body {
     height: 100vh;
   }
