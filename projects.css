@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 body {
-  background-color: white;
+  background-color: rgb(22, 2, 2);
+  height: auto;
 
   font-family: "Open Sans", sans-serif;
 }
 
 .container {
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 
 ul {
@@ -16,7 +17,7 @@ ul {
 
 a {
   text-decoration-line: none;
-  color: red;
+  color: rgb(223, 73, 73);
 }
 
 a:hover {
@@ -28,6 +29,13 @@ a:hover {
 }
 
 h2 {
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 75px;
 }
