@@ -1,0 +1,28 @@
+body {
+  background: rgb(85, 84, 83);
+}
+
+ul {
+  margin-top: 0rem;
+  list-style: none;
+  background-color: rgb(85, 84, 83);
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration-line: none;
+  color: rgb(167, 156, 9);
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+li {
+  padding: 1.2rem;
+}
