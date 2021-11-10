@@ -297,7 +297,7 @@ p {
 @media screen and (min-width: 1080px) {
   .container {
     display: grid;
-    grid-template-rows: 700px 520px 600px 300px 600px 1050px 620px;
+    grid-template-rows: 700px 520px 600px 300px 600px 1250px 620px;
   }
 
   h1 {
